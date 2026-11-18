@@ -1,0 +1,11 @@
+# What RPMote is built and tested with. PyQt6-WebEngine must match PyQt6's
+# version exactly (build.py checks), so the Qt packages are pinned together.
+PyQt6==6.11.0
+PyQt6-Qt6==6.11.0
+PyQt6-WebEngine==6.11.0
+PyQt6-WebEngine-Qt6==6.11.0
+paramiko>=4.0.0
+cryptography>=46.0.0
+pywin32>=311
+# Pin the comment-preserving YAML formatter to the version covered by tests.
+ruamel.yaml==0.19.1

@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environment
+.venv/
+
+# Build output (PyInstaller / Inno Setup)
+build/
+dist/
+Output/
+*.zip
+
+# Editor
+.idea/
+
+# Local scratch / logs
+.sync-work/
+build_log.txt
+crash_debug.txt
+test_ax.txt
